@@ -17,7 +17,7 @@ print(string[::2]) # [시작인덱스:끝인덱스:오프셋(간격)
 string = "PYTHON"
 print(string[::-1])
 
-# 25
+# 25 내가 한 것.
 phone_number = "010-1111-2222"
 print(phone_number.split("-")) # 오답! split은 한 list 안에 "-" 를 제외한 숫자를 "따로" 저장함.
 
