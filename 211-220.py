@@ -13,9 +13,6 @@
 # "+" 연산자는 같은 type 끼리만 가능. str 과 int를 함께 사용하는 건 불가능.
 
 # 215
-from re import M
-
-
 def print_with_smile(x):
     print(str(x) + ":D")
 
