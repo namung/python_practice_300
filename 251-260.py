@@ -3,47 +3,47 @@
 # 객체 : 클래서로 생성된 것. "빵"이라는 결과물.
 # 인스턴스 : 클래스와 객체의 관계성을 나타낼 때 사용. "a 객체는 b클래스의 인스턴스이다."
 
-# # 252
-# class Human():
-#     pass
+# 252
+class Human():
+    pass
 
-# # 253
-# class Human():
-#     pass
+# 253
+class Human():
+    pass
 
-# areum = Human()
+areum = Human()
 
-# # 254
-# class Human():
-#     def __init__(self):
-#         print("응애응애")
+# 254
+class Human():
+    def __init__(self):
+        print("응애응애")
 
-# areum = Human()
+areum = Human()
 
-# # 255
-# class Human():
-#     def __init__(self, name, age, sex):
-#         self.name = name
-#         self.age = age
-#         self.sex = sex
+# 255
+class Human():
+    def __init__(self, name, age, sex):
+        self.name = name
+        self.age = age
+        self.sex = sex
 
-# areum = Human("아름", 25, "여자")
+areum = Human("아름", 25, "여자")
 
-# # 256
-# print(f"이름: {areum.name}, 나이: {areum.age}, 성별: {areum.sex}")
+# 256
+print(f"이름: {areum.name}, 나이: {areum.age}, 성별: {areum.sex}")
 
-# # 257. 메서드 안에 self 꼭 들어가야함.
-# class Human():
-#     def __init__(self, name, age, sex):
-#         self.name = name
-#         self.age = age
-#         self.sex = sex
+# 257. 메서드 안에 self 꼭 들어가야함.
+class Human():
+    def __init__(self, name, age, sex):
+        self.name = name
+        self.age = age
+        self.sex = sex
     
-#     def who(self):
-#         print(f"이름: {self.name}, 나이: {self.age}, 성별: {self.sex}")
+    def who(self):
+        print(f"이름: {self.name}, 나이: {self.age}, 성별: {self.sex}")
 
-# areum = Human("아름", 25, "여자")
-# areum.who()
+areum = Human("아름", 25, "여자")
+areum.who()
 
 # 258
 class Human():
@@ -96,4 +96,4 @@ class OMG :
 
 myStock = OMG()
 myStock.print()     # OMF.print(myStock). 클래스 OMG의 메소드 print()에는 인자가 정의되지 않았는데 인자가 넘어가니 오류가 발생한 것.
-# 자동으로 객체가 self로 넘어감.
+# 자동으로 객체가 self로 넘어감. 여러 객체가 하나의 메소드를 사용하기 때문에 객체가 self로 넘어가서 구분해주는 게 필요함!
